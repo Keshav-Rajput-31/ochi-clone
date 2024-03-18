@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Forground = () => {
   return (
-    <div data-scroll data-scroll-speed={-0.8} data-scroll-section className='w-screen h-screen'>
+    <div data-scroll data-scroll-speed={-0.7} data-scroll-section className='w-screen h-screen'>
         
         <div className='relative top-[20%] left-[5%] font-[FoundersGrotesk] leading-[7em] tracking-tighter text-zinc-800'>
 
