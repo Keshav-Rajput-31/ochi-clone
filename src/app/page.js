@@ -8,7 +8,13 @@ import FeaturedProjectsPage from '@/Components/FeaturedProjectsPage'
 import PlayEyes from '@/Components/PlayEyes'
 import Footer from '@/Components/Footer'
 
+import LocomotiveScroll from 'locomotive-scroll';
+
+
+
 const page = () => {
+  const locomotiveScroll = new LocomotiveScroll();
+ 
   return (
     <div>
 

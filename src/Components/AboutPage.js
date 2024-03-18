@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <>
 
-      <div className='bg-[#cdea68] rounded-t-3xl '>
+      <div data-scroll data-scroll-speed={.05} data-scroll-section className='bg-[#cdea68] rounded-t-3xl '>
         <div className='py-[5%] pr-[20%] pl-[4%]'>
           <h1 className='text-[3.5vw] font-[NeueMontreal] leading-none'>Ochi is a strategic partner for fast-growing tech businesses that need to <span>raise funds</span>, <span>sell products</span> ,<span> explain complex ideas</span>, <span> and hire great people.</span></h1>
 

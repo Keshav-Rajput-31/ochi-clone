@@ -1,10 +1,11 @@
 'use client'
 import React from 'react'
+import { motion } from 'framer-motion';
 import { GoArrowUpRight } from "react-icons/go";
 
 const Forground = () => {
   return (
-    <div className='w-screen h-screen'>
+    <div data-scroll data-scroll-speed={-0.8} data-scroll-section className='w-screen h-screen'>
         
         <div className='relative top-[20%] left-[5%] font-[FoundersGrotesk] leading-[7em] tracking-tighter text-zinc-800'>
 
@@ -15,7 +16,7 @@ const Forground = () => {
           </div>
           <div className='text-[10em] font-bold uppercase flex '>
 
-            <div className='bg-red-500 w-[9vw] h-[12vh] relative top-3 rounded-lg mr-[.5vw]' ></div>
+            <motion.div initial = {{width:"0"}} animate ={{width:"9vw"}} transition={{ease:[0.87, 0, 0.13, 1] , duration:1 , delay:1}} className='bg-red-500 w-[9vw] h-[12vh] relative top-3 rounded-lg mr-[.5vw]' ></motion.div>
 
           <h1>eye-opening</h1>
 

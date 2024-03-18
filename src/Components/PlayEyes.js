@@ -31,7 +31,7 @@ const PlayEyes = () => {
         <>
 
             <div className='main w-full h-screen overflow-hidden'>
-                <div className='relative h-full w-full bg-cover bg-center bg-no-repeat bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")]'>
+                <div data-scroll data-scroll-speed = "-0.8" data-scroll-section className='relative h-full w-full bg-cover bg-center bg-no-repeat bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")]'>
 
                     <div className='eyeCont absolute flex gap-16 justify-center items-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
 
